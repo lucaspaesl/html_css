@@ -1,0 +1,10 @@
+*{
+    background-color: rgb(29, 29, 29);
+}
+h1 {
+    color: palevioletred;
+}
+.imgVideo {
+    width: 500px;
+    border: 20px black;
+}
