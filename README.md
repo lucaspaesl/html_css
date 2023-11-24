@@ -1,4 +1,4 @@
 # html_css
  curso do cursosoemvideo
 
-estou aprendendo html e agr postar no repositório
+estou aprendendo a criar sites e agora estou aprendendo a postar no repositório
