@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(255, 255, 255);
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead, tfoot, .imf{
+            background-color: gray;
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">área</th>
+                <th rowspan="2">disciplina</th>
+                <th colspan="2">Notas</th>
+                <th rowspan="2">Média</th>
+            </tr>
+            <tr>
+                <td>Nota 1</td>
+                <td>Nota 2</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3">Exatas</th>
+                <td>Matematica</td>
+                <td>25.0</td>
+                <td>25.0</td>
+                <td>25.0</td>
+            </tr>
+            <tr>
+                <td>Fisica</td>
+                <td>25.0</td>
+                <td>25.0</td>
+                <td>25.0</td>
+            </tr>
+            <tr>
+                <td>Quimica</td>
+                <td>25.0</td>
+                <td>25.0</td>
+                <td>25.0</td>
+            </tr>
+            <tr class="imf">
+                <th colspan="4">Média de Exatas</th>
+                <td>225.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td>Historia</td>
+                <td>25.0</td>
+                <td>25.0</td>
+                <td>25.0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>25.0</td>
+                <td>25.0</td>
+                <td>25.0</td>
+            </tr>
+            
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4">Média de Humanas</th>
+                <td>225.0</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
